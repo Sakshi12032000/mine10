@@ -1,0 +1,61 @@
+.WhyChoose-Heading{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+}
+.Container{
+    gap: 40px;
+    justify-content: center;
+}
+.Container-card{
+    border: 1px solid #131212;
+    border-radius: 10px;
+    width: 270px;
+    padding: 15px;
+}
+.card-img{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    /* width: 200px; */
+}
+.Container-heading{
+    font-size: 22px;
+    font-weight: 500; 
+    margin-top: 10px; 
+}
+.Container-content{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 905px) {
+    .Container{
+        gap: 18px;
+        margin-top: 20px;
+    }
+    .Container-card{
+     
+    }
+    .WhyChoose-Heading{
+        line-height: 1.0;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .WhyChoose-Heading{
+        font-size: 35px;
+    }
+    .Container-card{
+        width: 212px;
+        padding: 6px;
+    }
+    .card-img{
+        width: 200px;
+    }
+    .Container-heading{
+        font-size: 18px;
+    }
+    .Container-content{
+        font-size: 13px;
+    }
+}

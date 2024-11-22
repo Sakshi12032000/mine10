@@ -1,0 +1,122 @@
+
+.SR-Contains{
+    background-color: #F6F9FD;
+}
+h3{
+    text-align: center;
+    font-size: clamp(1.5625rem, 1.2156rem + 1.5416vw, 2.5rem);
+}
+.StudentsReview-ContentBox{
+    /* background-color: #F6F9FD; */
+    padding: 50px;
+}
+.StudentsReview-Heading{
+    font-size: clamp(2.1875rem, 1.8406rem + 1.5416vw, 3.125rem);    
+    font-weight: 500;
+    text-align: center;
+}
+.StudentsReview-subHeading{
+    text-align: center;
+    font-size: 15px;
+    opacity: 60%;
+    padding-bottom: 15px;
+}
+.StudentsReview-Container{
+    background-color: #F6F9FD;
+    text-align: center;
+    width: 100%;
+    padding: 40px;
+}
+.StudentsReview-Container .Card-heading{
+    font-size: 30px;
+}
+
+.Btn{
+    background-color: #7986CB;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    color: #ffff;
+    outline: none;
+    width: 40px;
+    height: 40px;
+}
+.star-icon{
+    font-size: 25px;
+}
+.Link-link{
+    background-color: #1a4696;
+    border-radius: 20px;
+    color: #ffff;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.Card-para{
+    width: 90%;
+    padding-left: 90px;
+}
+
+@media screen and (max-width: 920px) {
+    .StudentsReview-Container .Card-heading{
+        font-size: 30px;
+    }
+    .Card-para{
+        font-size: 22px;
+    }
+    .Card-name{
+        font-size: 18px;
+    }
+    .Card-date{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 730px) {
+    .StudentsReview-ContentBox{
+        padding: 10px;
+    }
+    .StudentsReview-Heading{
+        margin-top: 10px;
+    }
+    .StudentsReview-Container .Card-heading{
+        font-size: 25px;
+    }
+    .Card-para{
+        font-size: 19px;
+        padding-left: 25px;
+    }
+    .Card-name{
+        font-size: 14px;
+    }
+    .Card-date{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 440px) {
+    .StudentsReview-Container .Card-heading{
+        font-size: 25px;
+    }
+    .Card-para{
+        font-size: 16px;
+    }
+    .Card-name{
+        font-size: 14px;
+    }
+    .Card-date{
+        font-size: 14px;
+    }
+    
+}
+@media screen and (max-width:490px) {
+    .StudentsReview-subHeading{
+        line-height: 1.0;
+        margin-bottom: 7px;
+        margin-top: 5px;
+    }
+}
+@media screen and (max-width:380px) {
+    .StudentsReview-Heading{
+        line-height: 1.0;
+        margin-bottom: 6px;
+    }
+}
